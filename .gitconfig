@@ -1,0 +1,12 @@
+[user]
+	name = HIRONO
+	email = hilohiro@users.noreply.github.com
+[alias]
+	br = branch
+	co = checkout
+	st = status
+	com = checkout master
+	current-branch = rev-parse --abbrev-ref HEAD
+	fetchpr = "!f () { git fetch upstream \"+refs/pull/$1/head:refs/remotes/pull/$1/head\"; };f"
+	logg = log --graph
+	pullo = pull --rebase origin master
