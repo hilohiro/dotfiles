@@ -6,7 +6,9 @@
 	co = checkout
 	st = status
 	com = checkout master
+	copr = "!f () { git fetchpr $1; git co -b pr/$1 pr/$1/head; };f"
 	current-branch = rev-parse --abbrev-ref HEAD
-	fetchpr = "!f () { git fetch upstream \"+refs/pull/$1/head:refs/remotes/pull/$1/head\"; };f"
+	fetchpr = "!f () { git fetch upstream \"+refs/pull/$1/head:refs/remotes/pr/$1/head\"; };f"
 	logg = log --graph
+	mergepr = "!f() { git merge pr/$1/head; };f"
 	pullo = pull --rebase origin master
