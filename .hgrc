@@ -1,0 +1,6 @@
+[ui]
+username = HIRONO Rie <hilohiro@users.noreply.github.com>
+ssh = C:\usr\plink.exe -ssh -2 -batch -C
+
+[extensions]
+; hgext.win32mbcs=
