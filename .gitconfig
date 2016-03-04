@@ -12,3 +12,10 @@
 	logg = log --graph
 	mergepr = "!f() { git merge pr/$1/head; };f"
 	pullo = pull --rebase origin master
+[core]
+	autocrlf = input
+[color]
+	ui = false
+	status = false
+[push]
+	default = simple
