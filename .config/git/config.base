@@ -1,0 +1,17 @@
+[core]
+	autocrlf = false
+[user]
+	name = HIRONO
+	email = hilohiro@users.noreply.github.com
+[color]
+	ui = false
+	status = false
+	log = false
+[push]
+	default = simple
+[alias]
+	br = branch
+	sw = switch
+	st = status
+	current-branch = rev-parse --abbrev-ref HEAD
+	logg = log --graph

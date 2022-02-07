@@ -1,0 +1,11 @@
+[include]
+	path = config.base
+[core]
+	quotepath = false
+[color]
+	ui = false
+	status = false
+	log = false
+[pager]
+	branch = 
+	config = 
